@@ -8,7 +8,7 @@ metadata:
   name: kuard
 spec:
   rules:
-  - host: kuard.fuchicorp.com
+  - host: kuard.tubaloughlin.com
     http:
       paths:
       - backend:
@@ -17,5 +17,5 @@ spec:
         path: /
   tls:
   - hosts:
-    - kuard.fuchicorp.com
+    - kuard.tubaloughlin.com
     secretName: kuard-tls

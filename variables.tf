@@ -87,7 +87,7 @@ variable "kube_dashboard" {
 
 
 variable "google_domain_name" {
-  default = "fuchicorp.com"
+  default = "tubaloughlin.com"
   description = "Please change to your domain name"
 }
 

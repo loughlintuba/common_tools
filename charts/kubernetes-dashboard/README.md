@@ -127,8 +127,8 @@ In order to use github authentication to K8-dashboard for Fuchicorp following ma
 - proxy_service.yaml
 In order to use proxy_ingress - disable the k8-dashboard ingress.
 Under Fuchicorp Organization create the Kubernetes Dasboard App with the following values:
-  Homepage URL: https://dashboard.fuchicorp.com/
-  Authorization callback URL: https://dashboard.fuchicorp.com/oauth2/callback
+  Homepage URL: https://dashboard.tubaloughlin.com/
+  Authorization callback URL: https://dashboard.tubaloughlin.com/oauth2/callback
 Please customize common-tools.tfvars:
 kube_dashboard = {
   github_auth_client_id = "auth_client_id - from dashboard app"

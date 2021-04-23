@@ -42,8 +42,8 @@ c. OAuth AppsPersonal access tokens
 d .You have to generate token for Jenkins, Kubernetes, Grafana etc...
      Register a new OAuth application:
      Application Name: Jenkins
-     HomePage URL: add your domain name for `example:https://jenkins.fuchicorp.com`
-     Authorization callback URL: `https://jenkins.fuchicorp.com/login`
+     HomePage URL: add your domain name for `example:https://jenkins.tubaloughlin.com`
+     Authorization callback URL: `https://jenkins.tubaloughlin.com/login`
 
 4. Configure  the `common_tools.tfvars` file 
 
@@ -126,7 +126,7 @@ common_tools = {
 }
 ```
 ```
-https://isitup.fuchicorp.com/services/yourdomain.com
+https://isitup.tubaloughlin.com/services/yourdomain.com
 https://grafana.yourdomain.com/login
 https://nexus.yourdomain.com
 https://prometheus.yourdomain.com/graph

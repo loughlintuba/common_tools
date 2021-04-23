@@ -19,7 +19,7 @@ prometheus:
   # url: http://prometheus-deploy-tools-server.tools.svc.cluster.local
   url: http://prometheus-deploy-tools-server
   # url: http://prometheus-deploy-tools-server
-  # url: http://prometheus.fuchicorp.com
+  # url: http://prometheus.tubaloughlin.com
   port: 
 
 replicas: 1
