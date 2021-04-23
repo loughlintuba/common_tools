@@ -6,7 +6,7 @@ Prerequisites:
 
 Before the starting deployment steps, please configure the following prerequisites to enable deploying processes. 
 
-Click " https://github.com/fuchicorp/cluster-infrastructure/wiki/cluster-infrastructure--set-env.sh."
+Click " https://github.com/loughlintuba/cluster-infrastructure/wiki/cluster-infrastructure--set-env.sh."
 
 After complete, the cluster-infrastructure deployment process following steps contains how to deploy common_tools to Kubernetes Cluster.
 
@@ -26,7 +26,7 @@ Kube Cluster 1.12.7-gke.10
 1. Clone the repository from GitHub
 
 ```
-`git clone https://github.com/fuchicorp/common_tools.git`
+`git clone https://github.com/loughlintuba/common_tools.git`
 `cd common_tools`
 ```
 
@@ -104,7 +104,7 @@ c. google_k8s_service_vault.tf`and `google_k8s_sonarqube_module.tf in the charts
 
 For you to Whitelist IP's on any application, you would have to follow these steps:
 ```
-a) git clone `[the common_tools]` link for it  https://github.com/fuchicorp/common_tools
+a) git clone `[the common_tools]` link for it  https://github.com/loughlintuba/common_tools
 ```
 If you have already on your local make sure it's on master and latest changes
 ```

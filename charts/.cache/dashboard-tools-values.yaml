@@ -125,7 +125,7 @@ ingress:
   ## If true, Kubernetes Dashboard Ingress will be created.
   ##
   ## Implemented github auth and that's why disable ingress 
-  ## LOOK issue here https://github.com/fuchicorp/common_tools/issues/88
+  ## LOOK issue here https://github.com/loughlintuba/common_tools/issues/88
   enabled: false
 
   ## Kubernetes Dashboard Ingress annotations

@@ -266,7 +266,7 @@ Master:
               'allowVersionOverride': true,
               'includeInChangesets': false,
               'scm': [
-                  'remote': 'https://github.com/fuchicorp/jenkins-global-library.git',
+                  'remote': 'https://github.com/loughlintuba/jenkins-global-library.git',
                   'credentialsId': 'github-access-token'
               ]
           ]
@@ -640,7 +640,7 @@ Master:
       <configVersion>2</configVersion>
       <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-      <url>https://github.com/fuchicorp/common_tools.git</url>
+      <url>https://github.com/loughlintuba/common_tools.git</url>
       </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
       <branches>
